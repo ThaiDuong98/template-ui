@@ -136,7 +136,7 @@ export default ({
     <AnimationRevealPage disabled>
       <Container tw="bg-gray-100 -mx-8 -mt-8 pt-8 px-8">
         <Content2Xl>
-          <NavRow>
+          {/* <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
               Treact
@@ -155,12 +155,13 @@ export default ({
                 Hire Me!
               </NavLink>
               <div tw="md:hidden flex-100 h-0"></div>
-              {/* <PrimaryNavLink target="_blank" href="https://gum.co/QaruQ">
+              <PrimaryNavLink target="_blank" href="https://gum.co/QaruQ">
                 Download Now
-              </PrimaryNavLink> */}
+              </PrimaryNavLink>
             </div>
-          </NavRow>
-          <HeroRow>
+          </NavRow> */}
+          
+          {/* <HeroRow>
             <UpdateNotice>
               <UpdateNoticeIcon />
               Last updated on 10th September, 2022 - Added support for React v18 and TailwindCSS v3!
@@ -188,13 +189,13 @@ export default ({
                 <Image src={heroScreenshotImageSrc} />
               </ImageContainer>
             </ImageColumn>
-          </HeroRow>
-          <SectionContainer id="landingPageDemos">
-            <SectionHeading>Landing Pages</SectionHeading>
-            <SectionDescription>
+          </HeroRow> */}
+          <SectionContainer id="landingPageDemos" tw="pt-0">
+            <SectionHeading>Template Mẫu</SectionHeading>
+            {/* <SectionDescription>
               We have {noOfLandingPages} premade landing pages. Click on the "View Live Demo" button to see them in
               action. Customizing or Creating your own custom landing page is really simple by using our UI components.
-            </SectionDescription>
+            </SectionDescription> */}
             <PreviewCards>
               {Object.entries(landingPages).map(([pageName, page], index) => (
                 <PreviewCardContainer key={index}>
