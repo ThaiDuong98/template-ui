@@ -29,19 +29,6 @@
     "eject": "react-scripts eject",
     "deploy": "yarn build && netlify deploy --prod --dir=build"
   },
-  "eslintConfig": {
-    "extends": "react-app",
-    "overrides": [
-      {
-        "files": [
-          "src/**/*.js"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
